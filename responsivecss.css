@@ -1,0 +1,113 @@
+
+@media screen and (max-width:768px){
+  .container{
+		display: grid;
+		grid-template-columns: 100%;
+
+}
+.header h1{
+	font-size: 50px;
+	text-align: left;
+}
+.header p{
+	font-size: 35px;
+	text-align: left;
+}
+.wrap-container .images{
+	width: 400px;
+	height: 300px;
+	border: 4px ridge #e3ca70;
+}
+.wrap-container .image{
+  margin-top: 40px;
+  width: 500px;
+  height: 400px;
+  border: 4px ridge #e3ca70;
+}
+.colum .side{
+	font-size: 17px;
+}
+.information{
+  display: block;
+  margin-bottom: 2px;
+  background: linear-gradient(#e3ca70, #f3eb81);
+  box-shadow: 0px -25px 50px #e3ca70;
+  border-radius: 5px;
+margin-top: 0px;}
+.story-image{
+
+  width: 85%;
+  border: 4px ridge #e2b03d;
+  padding: 0px;
+}
+.top-btns{
+  background: linear-gradient(rgba(0, 255, 55, 0.9), rgba(0, 255, 55, 0.4));
+  margin: 50px;
+  padding: 10px 50px;
+  left: 200px;
+  font-size: 20px;
+}
+.timeline-container{
+  margin-top: 35px;
+}
+.header{
+  background: url(winnie.jpg) 100%;
+  Background-size: cover;
+}
+.top-btn p{
+  color: white;
+  text-align: right;
+}
+}
+
+@media screen and (max-width:414px){
+	.header h1{
+	font-size: 40px;
+	text-align: center;
+	}
+	.header{
+    background: url(winnie.jpg);
+	height: 400px;
+	}
+	.header p{
+	font-size: 20px;
+	text-align: center;
+}
+	.colum .side{
+	font-size: 12px;
+	padding-top: 280px;
+}
+	.wrap-container .image{
+	display: none;
+}
+	.marg{
+	display: none;
+}
+	.wrap-container .images{
+	width: 280px;
+	height: 190px;
+}
+	.top-btns{
+	margin: 50px;
+	padding: 5px 30px;
+	left: 60px;
+	font-size: 15px;
+}
+	.top-btn{
+	background: black;
+	padding:  10px 0px;
+}
+	.top-btn p{
+	color: white;
+	font-size: 13px;
+	text-align: right;
+	}
+  .wraps{
+    float: none;
+  }
+  .story-image{
+
+    width: 85%;
+    height: 350px;
+  }
+}
