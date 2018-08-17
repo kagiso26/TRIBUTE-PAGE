@@ -1,3 +1,4 @@
 # TRIBUTE-PAGE
 
-https://github.com/kagiso26/TRIBUTE-PAGE/TributePage.html
+https://kagiso26.github.io/TRIBUTE-PAGE/TributePage.html
+
